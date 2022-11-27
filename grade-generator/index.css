@@ -29,16 +29,54 @@ body{
 }
 .heading h2{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 30px;
     color: whitesmoke;
 }
 .total{
     margin: 15px;
     color: whitesmoke;
-    font-size:1.0rem ;
+    font-size:.8rem ;
     position: absolute;
     justify-content: space-evenly;
     
 
+}
+.main{
+    min-height: 50vh;
+    min-width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: .3rem;
+    margin-left: 30px;
+    font-size: 30px;
+    
+
+
+}
+.main-score{
+    text-align: center;
+}
+.main-score input{
+    height: 30px;
+    margin: 13px;
+    width:250px ;
+    font-size: 1.2rem;
+    padding: .3rem;
+    border-radius: 5px;
+    font-weight: 900px;
+    outline: none;
+    border: 1px solid gray;
+    background-color:white ;
+   
+}
+button{
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 800px;
+    outline: none;
+    cursor: pointer;
 }
