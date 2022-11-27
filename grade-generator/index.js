@@ -33,6 +33,9 @@ function getScore() {
 
     if (marks1 < 0 || marks1 > 100) {
         alert('Please input correct marks');
+        document.getElementById('total1').innerHTML = 'Invalid';
+        document.getElementById('marks1').innerHTML = 'Invalid';
+        document.getElementById('grade1').innerHTML = 'Invalid';
     }
 
 }
