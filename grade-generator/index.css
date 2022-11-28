@@ -56,10 +56,10 @@ body{
 
 
 }
-.main-score{
+#main-score{
     text-align: center;
 }
-.main-score input{
+#main-score input{
     height: 30px;
     margin: 13px;
     width:250px ;
