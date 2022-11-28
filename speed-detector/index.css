@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.grade{
+    background-color: rgb(52, 52, 126);
+    height: 60%;
+    width: 35%;
+    border-radius: 30px;
+    margin-top: 3%;
+}
+
+.heading h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px;
+    color: whitesmoke;
+}
+.heading p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px;
+    color: rgb(212, 149, 32);
+}
+
+.main-score{
+    text-align: center;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+button{
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 800px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
