@@ -1,3 +1,4 @@
+/* styling applying to html document */
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body{
     align-items: center;
     min-height: 70vh;
 }
+/* defining height, width and background color */
 #page-wrap{
     height: 40vh;
     width: 30vw;
@@ -24,11 +26,13 @@ body{
     margin-bottom: 12rem;
     
 }
+/* styling the heading */
 #todo{
     margin-left: 3.2rem;
     padding: 10px;
     font-size: 15px;
 }
+/* adding style to heading */
 button{
     padding-top: 2.2rem;
     color: black;

@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to css file -->
     <link rel="stylesheet" href="index.css">
+    <!-- adding bootstrap link css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- adding bootstrap link js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -15,12 +18,15 @@
 </head>
 
 <body>
+    <!-- general div -->
     <div id="page-wrap">
+        <!-- div showing heading and paragraghs of my document -->
         <div id="todo" ng-controller="TodoCtrl">
             <h2>Net Salary Calculator</h2>
 
             <p>
             <p id="text"></p>
+            <!-- button that will come in handy when using javascript -->
             <button type="button" class="btn btn-warning" onclick="calculateBtn()" id="salaryCalculator">
                 calculate</button>
             </p><br><br>
@@ -30,7 +36,7 @@
         </div>
     </div>
 
-
+    <!-- link to javascript -->
     <script src="index.js"></script>
 
 </body>
