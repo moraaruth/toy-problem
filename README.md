@@ -47,17 +47,23 @@
 - Bootstrap - which makes my project responsive.
 
 ## BDD
- <!-- work needed here -->
-<!-- - Write code to handle
-- Enter your name as Input
-- Enter your Email address
-- Enter your message or comment
-- Then submit -->
+
+### Grade Generator
+- Prompts you to input your marks.
+- Depending on your score it gives you a grade e.g A
+
+### Net salary
+- Prompts you to input your salary
+- Calculates your net salary, taking into account all your deductions and tax
+
+### Speed detector
+- Prompts you to input speed
+- Depending on your speed it gives you points or license suspended.
 
 ## Github Pages link
 
 You can view the live application by following this link
-[Delani Studio](https://moraaruth.github.io/Delani-Studio/)
+[Toy Problems](https://moraaruth.github.io/toy-problem/)
 
 ## Reference
 
