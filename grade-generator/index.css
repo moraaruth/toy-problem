@@ -1,3 +1,4 @@
+/* styling applying to html document */
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+/* defining height, width and background color */
 .grade{
     background-color: rgb(183, 183, 236);
     height: 50vh;
@@ -27,12 +29,14 @@ body{
     border-top-left-radius: 25px;
     border-bottom-left-radius:25px;
 }
+/* adding style to heading */
 .heading h2{
     text-align: center;
     font-size: 2.5rem;
     margin: 30px;
     color: whitesmoke;
 }
+
 .total{
     margin: 15px;
     color: whitesmoke;
@@ -42,6 +46,7 @@ body{
     
 
 }
+/* adding margins and aligning main document */
 .main{
     min-height: 50vh;
     min-width: 60vw;
@@ -59,6 +64,7 @@ body{
 #main-score{
     text-align: center;
 }
+/* styling the input */
 #main-score input{
     height: 30px;
     margin: 13px;
@@ -72,6 +78,7 @@ body{
     background-color:white ;
    
 }
+/* styling the button */
 button{
     height: 35px;
     width: 200px;

@@ -6,18 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grade Generator</title>
+    <!-- link to css file -->
     <link rel="stylesheet" href="index.css">
+    <!-- adding bootstrap link css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- adding bootstrap link js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <!-- general div -->
     <div class="grade">
+
         <div class="marks">
+
             <div class="heading">
+                <!-- section that will show marks and Grade -->
                 <h2>Score</h2>
                 <div class="total">
 
@@ -29,17 +37,13 @@
 
         </div>
         <div class="main">
+            <!-- adding button section that will help when adding javascript -->
             <div class="main-score">
 
                 <button type="button" class="btn btn-danger" style="color: white;" onclick="getScore()">Generate
                     Score
                 </button>
                 <h2 id="text" style="color: black;"></h2>
-
-
-
-
-
 
             </div>
 
@@ -48,6 +52,8 @@
 
 
     </div>
+
+    <!-- adding script to link html and javascript -->
 
     <script src="index.js"></script>
 </body>
