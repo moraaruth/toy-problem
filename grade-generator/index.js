@@ -23,13 +23,13 @@ function getScore() {
         document.getElementById('text').innerHTML = "Hello, You have grade B";
     }
     // else if statement to give 'C' grade
-    else if (marks1 >= 49 && marks1 <= 59) {
+    else if (marks1 >= 50 && marks1 <= 59) {
         document.getElementById('grade1').innerHTML = 'C';
         document.getElementById('text').innerHTML = "Hello, You have grade C";
 
     }
     // else if statement to give 'D' grade
-    else if (marks1 >= 40 && marks1 < 49) {
+    else if (marks1 >= 40 && marks1 <= 49) {
         document.getElementById('grade1').innerHTML = 'D';
         document.getElementById('text').innerHTML = "Hello, You have grade D";
 
@@ -44,4 +44,6 @@ function getScore() {
     document.getElementById('marks1').innerHTML = marks1;
 
 }
+
+console.log(getScore());
 // end of js
